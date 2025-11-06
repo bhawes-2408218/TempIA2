@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> LuEs- Checkout </title>
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js"> </script>
+        <!-- Linking Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="../Assets/logo.png" alt="Lunar Essence Logo" width = "100" height = "100">
+                </div>
+            </div>
+        </header>
+
+        <section class = "coutcontain">
+            <div class="checkout" id = "checkout">
+                <h3> Shopping Cart Summary </h3>
+                <ul id = "checkoutitems"></ul>
+            </div>
+        </section>
+        
+        <section class = "ship-bill">
+            <section class = "shipping">
+                <div class="shippin" id = "pship" >
+                    <h3> Shipping Details </h3>
+                    <button class = "shipbtn" id = "editshipping" onclick = "AllButtons()"> Edit Shipping Details </button>
+                    <div class = "shipping-panel hidden">
+                        <input type = "text" placeholder = "United States" required>
+                        <fieldset class = "two-col">
+                            <div class = "name">
+                                <input type = "text" minlength = "2" maxlength = "30" placeholder = "First Name" required>
+                            </div>
+                            <div class = "name">
+                                <input type = "text" minlength = "2" maxlength = "30" placeholder = "Last Name" required>
+                            </div>
+                        </fieldset>
+                        <input type = "number" minlength = "4" maxlength = "12" placeholder = "Phone Number" required></br>
+                        <input type = "text" minlength = "3" maxlenght = "20" placeholder = "Address Line 1" required></br>
+                        <input type = "text" minlength = "3" maxlenght = "20" placeholder = "Address Line 2"></br>
+                        <input type = "text" minlength = "3" maxlenght = "20" placeholder = "Parish" required></br>
+                        <div class="paymentmethods">
+                            <label> <input type = "radio" name = "paymentmethod" value = "paypal"> Paypal </label></br>
+                            <label> <input type = "radio" name = "paymentmethod" value = "card"> Credit/Debit Card </label></br>
+                            <label> <input type = "radio" name = "paymentmethod" value = "cashapp"> Cash App </label></br>  
+                            <label> <input type = "radio" name = "paymentmethod" value = "applepay"> Apple Pay</label></br>
+                        </div>
+                        <input type = "number" minlength = "3" maxlength = "12" placeholder = "Amount to be Paid" required></br>
+                                            
+                        <button class = "shipbtn" id = "confirmchange"> Confirm Changes </button>
+                        <button class = "shipbtn" id = "cancelchange"> Cancel Changes </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class = "bill">
+                <div class="bills" id = "totalbill">
+                    <h3> Final Bill </h3>
+                    <p> </br>Sub-total: $<span id = "subtotal">0 </span></br>
+                        Shipping Fee: $<span id = "shippingfee">0 </span></br>
+                        Discount: $<span id = "discount">0 </span></br>
+                        Tax: $<span id = "tax">0 </span></br>
+                        Total: $<span id = "total">0 </span></br>
+                    </p>
+                    <button class = "billbtn" id = "clearall"> Clear All </button>
+                    <button class = "billbtn" id = "check-out"> Check Out </button>
+                    <button class = "billbtn" id = "close"> Close </button>
+                </div>
+                <img src = "../Assets/logo.png">
+            </section>
+        </section>
+        
+
+    </body>
+</html>

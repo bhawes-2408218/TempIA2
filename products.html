@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> LuEs- Products</title>
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js"> </script>
+        <!-- Linking Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" 
+        rel="stylesheet">
+        <!-- Linking Material Icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="../Assets/logo.png" alt="Lunar Essence Logo" width = "100" height = "100">
+                </div>
+
+                <ul class = "nav" align="center">
+                    <li class= "active"><a href="index.html"> Home </a> </li>
+                    <li><a href = "aboutus.html" target = "_self"> About Us </a></li>
+                    <li><a href = "products.html" target = "_blank"> Products </a>
+                        <ul class = "submenu">
+                            <li><a href = "products.html#bodywash"> Body Washes </a></li>
+                            <li><a href = "products.html#lotions"> Body Lotions </a></li>
+                            <li><a href = "products.html#scrubs"> Body Scrubs </a></li>
+                            <li><a href = "products.html#bodyoils"> Body Oils </a></li>
+                            <li><a href = "products.html#bodymists"> Body Mists </a></li>
+                            <li><a href = "products.html#bodybutters"> Body Butters </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class = "cartnav" align = "right">
+                    <li> <a href = "login.html" target = "_blank"> <i class = "bx bxs-user-circle"></i> </a></li>
+                    <li ><a href = "cart.html" target = "_self"> <i class = "bx bxs-shopping-bag"></i> </a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section id = "products" data-aos="zoom-in">
+            <h1> Products </h1>
+            <div class = "prodcard" id = "bodywash">
+                <h2> Body Washes </h2>
+                <!--<a name = "bodywash"> -->
+                <div class="prod">
+                    <div class="bwash" data-name = "Lavender and Vanilla Body Wash" data-price = "2500">
+                        <img src = "../Assets/bodywash1.png" alt = "Lavender and Vanilla Body Wash" >
+                        <p>  
+                            Lavender and Vanilla Body Wash </br>
+                            $2,500.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bwash" data-name = "Citrus and Vanilla Body Wash" data-price = "2500"> 
+                        <img src = "../Assets/bodywash2.png" alt = "Citrus and Vanilla Body Wash">
+                        <p>  
+                            Citrus and Vanilla Body Wash </br>
+                            $2,500.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bwash" data-name = "Coconut Body Wash" data-price = "2500">
+                        <img src = "../Assets/bodywash3.png" alt = "Coconut Body Wash">
+                        <p>  
+                            Coconut Body Wash </br>
+                            $2,500.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bwash" data-name = "Vanilla Body Wash" data-price = "2500">
+                        <img src = "../Assets/bodywash4.png" alt = "Vanilla Body Wash">
+                        <p>  
+                            Vanilla Body Wash </br>
+                            $2,500.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bwash" data-name = "Sandalwood and Sage Body Wash" data-price = "2500">
+                        <img src = "../Assets/bodywash5.png" alt = "Sandalwood and Sage Body Wash">
+                        <p>  
+                            Sandalwood and Sage Body Wash </br>
+                            $2,500.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "prodcard" id = "bodybutters"-->>
+                <h2> Body Butters </h2>
+                <div class="prod">
+                    <div class = "bbutter" data-name = "Lavender and Vanilla Body Butter" data-price = "2200">
+                        <img src = "../Assets/butter1.png" alt = "Lavender and Vanilla Body Butter">
+                        <p>  
+                            Lavender and Vanilla Body Butter </br>
+                            $2,200.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bbutter" data-name = "Citrus and Vanilla Body Butter" data-price = "2200">
+                        <img src = "../Assets/butter2.png" alt = "Citrus and Vanilla Body Butter">
+                        <p>  
+                            Citrus and Vanilla Body Butter </br>
+                            $2,200.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bbutter" data-name = "Coconut Body Butter" data-price = "2200">
+                        <img src = "../Assets/butter3.png" alt = "Coconut Body Butter">
+                        <p>  
+                            Coconut Body Butter </br>
+                            $2,200.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bbutter" data-name = "Vanilla Body Butter" data-price = "2200">
+                        <img src = "../Assets/butter4.png" alt = "Vanilla Bddy Butter">
+                        <p>  
+                            Vanilla Body Butter </br>
+                            $2,200.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bbutter" data-name = "Sandalwood and Sage Body Butter" data-price = "2200">
+                        <img src = "../Assets/butter5.png" alt = "Sandalwood and Sage Body Butter">
+                        <p>  
+                            Sandalwood and Sage Body Butter </br>
+                            $2,200.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "prodcard" id = "lotions">
+                <h2> Body Lotions </h2>
+                <div class="prod">
+                    <div class = "blotion" data-name = "Lavender and Vanilla Body Lotion" data-price = "1700">
+                        <img src = "../Assets/lotion1.png" alt = "Lavender and Vanilla Body Lotion">
+                        <p>  
+                            Lavender and Vanilla Body Lotion </br>
+                            $1,700.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "blotion" data-name = "Citrus and Vanilla Body Lotion" data-price = "1700">
+                        <img src = "../Assets/lotion2.png" alt = "Citrus and Vanilla Body Lotion">
+                        <p>  
+                            Citrus and Vanilla Body Lotion </br>
+                            $1,700.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "blotion" data-name = "Coconut Body Lotion" data-price = "1700">
+                        <img src = "../Assets/lotion3.png" alt = "Coconut Body Lotion">
+                        <p>  
+                            Coconut Body Lotion </br>
+                            $1,700.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "blotion" data-name = "Vanilla Body Lotion" data-price = "1700">
+                        <img src = "../Assets/lotion4.png" alt = "Vanilla Body Lotion">
+                        <p>  
+                            Vanilla Body Lotion </br>
+                            $1,700.00 JMD
+                        </p><div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "blotion" data-name = "Sandalwood and Sage Body Lotion" data-price = "1700">
+                        <img src = "../Assets/lotion5.png" alt = "Sandalwood and Sage Body Lotion">
+                        <p>  
+                            Sandalwood and Sage Body Lotion </br>
+                            $1,700.00 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "prodcard" id = "bodymists">
+                <h2> Body Mists </h2>
+                <div class="prod">
+                    <div class = "bmist" data-name = "Lavender and Vanilla Body Mist" data-price = "2000">
+                        <img src = "../Assets2/mist1.png" alt = "Lavender and Vanilla Body Mist">
+                        <p>  
+                            Lavender and Vanilla Body Mist </br>
+                            $2,000 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bmist" data-name = "Citrus and Vanilla Body Mist" data-price = "2000">
+                        <img src = "../Assets2/mist2.png" alt = "Citrus and Vanilla Body Mist">
+                        <p>  
+                            Citrus and Vanilla Body Mist </br>
+                            $2,000 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bmist" data-name = "Coconut Body Mist" data-price = "2000">
+                        <img src = "../Assets2/mist3.png" alt = "Coconut Body Mist">
+                        <p>  
+                            Coconut Body Mist </br>
+                            $2,000 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bmist" data-name = "Vanilla Body Mist" data-price = "2000">
+                        <img src = "../Assets2/mist4.png" alt = "Vanilla Body Mist">
+                        <p>  
+                            Vanilla Body Mist </br>
+                            $2,000 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bmist" data-name = "Sandalwood and Sage Body Mist" data-price = "2000">
+                        <img src = "../Assets2/mist5.png" alt = "Sandalwood and Sage Body Mist">
+                        <p>  
+                            Sandalwood and Sage Body Mist </br>
+                            $2,000 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "prodcard" id = "bodyoils">
+                <h2> Body Oil </h2>
+                <div class="prod">
+                    <div class = "bodyoil" data-name = "Lavender and Vanilla Body Oil" data-price = "1400">
+                        <img src = "../Assets2/oil1.png" alt = "Lavender and Vanilla Body Oil">
+                        <p>  
+                            Lavender and Vanilla Body Oil </br>
+                            $1,400 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bodyoil" data-name = "Citrus and Vanilla Body Oil" data-price = "1400">
+                        <img src = "../Assets2/oil2.png" alt = "Citrus and Vanilla Body Oil">
+                        <p>  
+                            Citrus and Vanilla Body Oil </br>
+                            $1,400 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bodyoil" data-name = "Coconut Body Oil" data-price = "1400">
+                        <img src = "../Assets2/oil3.png" alt = "Coconut Body Oil">
+                        <p>  
+                            Coconut Body Oil </br>
+                            $1,400 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bodyoil" data-name = "Vanilla Body Oil" data-price = "1400">
+                        <img src = "../Assets2/oil4.png" alt = "Vanilla Body Oil">
+                        <p>  
+                            Vanilla Body Oil </br>
+                            $1,400 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bodyoil" data-name = "Sandalwood and Sage Body Oil" data-price = "1400">
+                        <img src = "../Assets2/oil5.png" alt = "Sandalwood and Sage Body Oil">
+                        <p>  
+                            Sandalwood and Sage Body Oil </br>
+                            $1,400 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodcard" id = "scrubs">
+                <h2> Body Scrubs </h2>
+                <div class="prod">
+                    <div class = "bscrub" data-name = "Lavender and Vanilla Body Scrub" data-price = "2300">
+                        <img src = "../Assets2/scrub1.png" alt = "Lavender and Vanilla Body Scrub">
+                        <p>  
+                            Lavender and Vanilla Body Scrub </br>
+                            $2,300 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bscrub" data-name = "Citrus and Vanilla Body Scrub" data-price = "2300">
+                        <img src = "../Assets2/scrub2.png" alt = "Citrus and Vanilla Body Scrub">
+                        <p>  
+                            Citrus and Vanilla Body Scrub </br>
+                            $2,300 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bscrub" data-name = "Coconut Body Scrub" data-price = "2300">
+                        <img src = "../Assets2/scrub3.png" alt = "Coconut Body Scrub">
+                        <p>  
+                            Coconut Body Scrub </br>
+                            $2,300 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bscrub" data-name = "Vanilla Body Scrub" data-price = "2300">
+                        <img src = "../Assets2/scrub4.png" alt = "Vanilla Body Scrub">
+                        <p>  
+                            Vanilla Body Scrub </br>
+                            $2,300 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>
+                    <div class = "bscrub" data-name = "Sandalwood and Sage Body Scrub" data-price = "2300">
+                        <img src = "../Assets2/scrub5.png" alt = "Sandalwood and Sage Body Scrub">
+                        <p>  
+                            Sandalwood and Sage Body Scrub </br>
+                            $2,300 JMD
+                        </p>
+                        <div class = "quan-panel hidden">
+                            <input type = "number" class = "qntyinput" value = "1" min = "1"/>
+                            <button class = "addbtn"> Add To Cart </button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <footer id = "footer"> 
+            <section class = "contactus">
+                <h2> Contact Us </h2>
+                <p> Contact us via email by clicking the image below </br>
+                    <a href = "mailto:2408218@utech.edu.jm"><img src = "../Assets/logo.png" alt="Lunar Essence Logo" width = "55" height = "55"></a> </br>
+                    or call us at (876) 555-1234. </br>
+                </p>        
+            </section>
+            <section class = "socialmedia">
+                <h2> Follow Us </h2>
+                <a href = "https://www.facebook.com" target = "_blank"> <i class="fa-brands fa-facebook"></i></a>
+                <a href = "https://www.instagram.com" target = "_blank"> <i class="fa-brands fa-instagram"></i></a>
+                <a href = "https://www.twitter.com" target = "_blank"> <i class="fa-brands fa-twitter"></i></a>
+                <a href = "https://www.tiktok.com" target = "_blank"> <i class="fa-brands fa-tiktok"></i></a>
+            </section>
+
+            <p class = "copy">&copy; 2025 &nbsp Lunar Essence, &nbsp Powered by Brittania B. Hawes.</p>
+        </footer>
+
+    </body>
+</html>

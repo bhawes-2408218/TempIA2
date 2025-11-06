@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> LuEs- Cart</title>
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js"> </script>
+        <!-- Linking Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- Linking Material Icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="../Assets/logo.png" alt="Lunar Essence Logo" width = "100" height = "100">
+                </div>
+
+                <ul class = "nav" align="center">
+                    <li class= "active"><a href="index.html"> Home </a> </li>
+                    <li><a href = "aboutus.html" target = "_self"> About Us </a></li>
+                    <li><a href = "products.html" target = "_blank"> Products </a>
+                        <ul class = "submenu">
+                            <li><a href = "products.html#bodywash"> Body Washes </a></li>
+                            <li><a href = "products.html#lotions"> Body Lotions </a></li>
+                            <li><a href = "products.html#scrubs"> Body Scrubs </a></li>
+                            <li><a href = "products.html#bodyoils"> Body Oils </a></li>
+                            <li><a href = "products.html#bodymists"> Body Mists </a></li>
+                            <li><a href = "products.html#bodybutters"> Body Butters </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class = "cartnav" align = "right">
+                    <li> <a href = "login.html" target = "_blank"> <i class = "bx bxs-user-circle"></i> </a></li>
+                    <li ><a href = "cart.html" target = "_self"> <i class = "bx bxs-shopping-bag"></i> </a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="cart" id = "cartcontainer">
+            <h3> Shopping Cart </h3>
+            <ul id = "cartitems"></ul>
+            <p> </br>Sub-total: $<span id = "subtotal">0 </span></br>
+                Discount: $<span id = "discount">0 </span></br>
+                Tax: $<span id = "tax">0 </span></br>
+                Total: $<span id = "total">0 </span></br>
+            </p>
+            <a href = "checkout.html" class = "cartbtn"> Checkout </a>
+        </div>
+
+    </body>
+</html>
